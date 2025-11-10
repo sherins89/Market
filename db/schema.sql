@@ -1,9 +1,7 @@
-DROP TABLE orders_products;
-DROP TABLE order;
-DROP TABLE products;
-DROP TABLE users;
-
-
+DROP TABLE orders_products CASCADE;
+DROP TABLE order CASCADE;
+DROP TABLE products CASCADE;
+DROP TABLE users CASCADE;
 
  -- create tables -- order matters -- 
  CREATE TABLE users(
