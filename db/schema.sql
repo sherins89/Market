@@ -21,7 +21,7 @@ DROP TABLE users CASCADE;
     id SERIAL PRIMARY KEY,
     title TEXT NOT NULL,
     description TEXT NOT NULL,
-    price numeric(2) NOT NULL
+    price numeric(12,2) NOT NULL
  );
 
  CREATE TABLE orders_products(
